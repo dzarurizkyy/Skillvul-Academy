@@ -1,0 +1,31 @@
+* {font-family: 'Poppins Medium';}
+body {margin: 20px;}
+h1 {font-family: 'Poppins ExtraBold';}
+
+span {display: block;}
+
+.span1 {
+    color: whitesmoke;
+    background-color: steelblue;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 16px;
+}
+
+div {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.heading {
+    font-size: 26px;
+    font-weight: 600;
+    background-color: lightslategray;
+    margin-bottom: 18px;
+    padding-left: 10px;
+}
+
+.subheading {
+    padding-left: 20px;
+    padding-bottom: 6px;
+}

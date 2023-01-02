@@ -1,0 +1,16 @@
+* {font-family: 'Poppins Medium';}
+body {margin: 20px;}
+h1 {font-family: 'Poppins'; font-weight: 700;}
+input {height:16px;}
+
+.submit, .cancel {width: 310px; height: 40px;}
+.cancel {margin-top: -13px;}
+.submit {
+    margin-top: 24px;
+    background-color: lightblue; 
+    border: 1.8px solid rgba(168, 172, 178, 100%);
+    border-radius: 2px;
+}
+
+#sbm-none {display: none;}
+#sbm-hidden {visibility: hidden;}

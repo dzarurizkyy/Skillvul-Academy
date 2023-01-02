@@ -1,0 +1,19 @@
+* {font-family: 'Poppins Medium';}
+h1 {font-family: 'Poppins ExtraBold';}
+body {margin: 20px;}
+
+.container {
+    width: 600px;
+    height: 182px;
+    text-align: center;
+    background: lightskyblue;
+}
+
+.yellow-boxes {
+    position: static;
+    margin: 30px 7px;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: yellow;
+}

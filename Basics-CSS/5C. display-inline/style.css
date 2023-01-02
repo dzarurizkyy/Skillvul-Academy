@@ -1,0 +1,8 @@
+* {font-family: 'Poppins'; font-weight: 500;}
+body {margin: 20px;}
+h1 {font-family: 'Poppins ExtraBold';}
+
+.text1 {background-color: lightgreen; padding: 4px;}
+.text2 {background-color: lightblue; padding: 4px;}
+
+#text-1, #text-2, #text-4, #text-5 {display: inline;}

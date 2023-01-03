@@ -1,0 +1,60 @@
+body {margin: 20px; background: #F7F7F7;}
+* {font-family: 'Poppins'; font-weight: 500;}
+h1,h2 {font-family: 'Poppins ExtraBold'; padding-left: 10px;}
+p {text-align: justify; padding: 10px;}
+p:nth-child(odd) {background: #8B9DC3; }
+p:nth-child(even) {background-color: #3B5998; color: whitesmoke;}
+
+.session {
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    height: 410px;
+    position: fixed;
+    top: 140px;
+    right: 10px;
+    background: #DFE3EE;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+}
+
+.title, .description {text-align: center;}
+.title {font-size: 12px;}
+
+img {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 160px;
+    display: block;
+    border-radius: 10px;
+}
+
+.subtitle {
+    margin-top: 0px;
+    margin-bottom: 14px;
+    font-size: 13px;
+    font-weight: 500;
+}
+            
+textarea {
+    margin: auto;
+    width: 170px;
+    height: 60px;
+    display: block;
+}
+
+button {
+    margin-top: 10px;
+    width: 180px;
+    height: 30px;
+    color: whitesmoke;
+    font-family: 'Poppins SemiBold';
+    background: #3B5998;
+    border: 1.3px solid #8b9dc3;
+    border-radius: 4px;                
+}

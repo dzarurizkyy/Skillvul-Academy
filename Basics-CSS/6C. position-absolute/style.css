@@ -1,0 +1,78 @@
+* {font-family: 'Poppins Semibold';}
+h1 {font-family: 'Poppins'; font-weight: 700;}
+body {margin: 20px;}
+
+.big-square {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background:slateblue;
+}
+
+.medium-square {
+    width: 180px;
+    height: 180px;
+    background: tomato;
+}
+
+.small-square {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: lightseagreen;
+}
+
+.card {
+    padding-bottom: 0px;
+    width: 300px;
+    height: 376px;
+    position: relative;
+    background: lightyellow;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px lightgrey;
+}
+
+.close-button {
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+
+.title {
+    padding-top: 40px;
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    margin-bottom: 26px;
+    display: block;
+    border-radius: 40px;
+}
+
+.description {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 240px;
+    background: rgba(255, 182, 193, 50%);
+    border-radius: 14px;
+}
+
+p {
+    text-align: center;
+}
+
+.text-1 {
+    margin-bottom: 0px;
+    padding-top: 6px;
+    padding-bottom: 1px;
+}
+
+.text-2 {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+}

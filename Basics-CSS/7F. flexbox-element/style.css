@@ -1,0 +1,37 @@
+body {margin: 20px;}
+* {font-family: 'Poppins';}
+h1:nth-child(1) {margin-bottom: 2.5vw;}
+h3 {font-weight: 550;}
+
+.container-1, .container-2, .container-3 {margin-left: 18px;}
+.container-2, .container-3 {display: flex;}
+.container-2 {margin-bottom: 0vw; flex-direction: row;}
+.container-3 {flex-direction: row-reverse;}
+.container-4 {margin-top: 0vw;}
+.container-5 {justify-content:space-around;}
+.container-6 {justify-content: center;}
+.container-7 {justify-content:space-between;}
+
+.square, .flex-square {font-size: 6.2vw;}
+.square, .justify-flex-square {margin-right: 1vw;}
+.square, .flex-square, .justify-flex-square {
+    height: 9vw;
+    color: white;
+    text-align: center;
+    background: tomato;
+}
+
+.square {
+    display: inline-block;
+    width: 23%;
+}
+
+.flex-square {
+    margin-right: 1.7vw;
+    flex-basis: 100%;
+}
+
+.justify-flex-square {
+    width: 14%;
+    font-size: 6.4vw;
+}

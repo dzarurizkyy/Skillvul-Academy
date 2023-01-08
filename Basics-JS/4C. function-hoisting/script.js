@@ -1,7 +1,7 @@
 let a = 9, b = 6;
 
 console.log(
-    a + " x " + b + " =" ,multiply(a, b)
+    a + " x " + b + " =", multiply(a, b)
 );
 
 // Hoisting

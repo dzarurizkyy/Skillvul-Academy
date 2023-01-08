@@ -60,6 +60,7 @@ console.log("");
 
 // Object Method
 console.log("Object Method");
+
 let calculator = {
     name: "Addition",
     amount: function(number1, number2) {

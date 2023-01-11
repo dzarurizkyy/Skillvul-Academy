@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic HTML</title>
+    </head>
+    <body>
+        <h1>Form</h1>
+        <hr /><br />
+        <form>
+            <fieldset style="width: 200px">
+            <legend><strong>Employee Candidate Form</strong></legend>
+            <br />
+                <table cellpadding="6px">
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td>:</td>
+                        <td><input id="name" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Address</label></td>
+                        <td>:</td>
+                        <td><input id="address" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="pass">Password</label></td>
+                        <td>:</td>
+                        <td><input id="pass" type="password" /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Gender</label></td>
+                        <td>:</td>
+                        <td>
+                            <input id="man" type="radio" name="gender" checked />
+                            <label for="man">Man</label>
+                            <input id="woman" type="radio" name="gender" />
+                            <label for="woman">Woman</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mastering Programming Language</td>
+                        <td>:</td>
+                        <td>
+                            <input id="html"type="checkbox" />
+                            <label for="html">HTML</label>
+                            <input id="css" type="checkbox" />
+                            <label for="css">HTML</label>
+                            <input id="js" type="checkbox" />
+                            <label for="js">Javascript</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="hometown">Hometown</label></td>
+                        <td>:</td>
+                        <td>
+                            <select id="hometown">
+                                <option>Jakarta</option>
+                                <option>Bandung</option>
+                                <option>Surabaya</option>
+                                <option>Malang</option>
+                                <option>Yogyakarta</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td colspan="3"></td></tr>
+                    <tr><td colspan="3"></td></tr>
+                    <tr>
+                        <td colspan="3">
+                            <label for="comment">
+                                <strong>What made us choose to you?</strong>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <textarea id="comment" cols="67" rows="8" placeholder="Write your answer here"></textarea>
+                        </td>
+                    </tr>
+                    <tr><td colspan="3"></td></tr>
+                    <tr>
+                        <td><button style="width: 100px; height: 26px">Submit</button></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>

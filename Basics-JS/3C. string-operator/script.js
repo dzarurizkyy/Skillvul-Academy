@@ -1,4 +1,5 @@
 // String Concatenation
+
 let firstName = "Mark",
     lastName  = "Zuckerberg";
 

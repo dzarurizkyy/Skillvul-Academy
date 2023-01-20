@@ -19,13 +19,10 @@ console.log (`${number1} ^ ${number2} =`, number1 ** number2);
 // Modulus
 console.log (`${number1} % ${number2} =`, number1 % number2);
 
-let before = number1,
-    result;
+let before = number1;
 
 // Increment
 console.log (`${before} + 1 =`, ++number1);
 
 // Decrement
 console.log (`${before} - 1 =`, --before);
-
-

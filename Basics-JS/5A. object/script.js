@@ -24,8 +24,8 @@ console.log(user.name);
 console.log(fruit['name']);
 
 console.log('');
-console.log(fruit);
 console.log(user);
+console.log(fruit);
 console.log('');
 
 

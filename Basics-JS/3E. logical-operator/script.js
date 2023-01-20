@@ -1,6 +1,7 @@
-let number1 = 6;
-let number2 = 4;
+let number1 = 6,
+    number2 = 4;
 
+// AND (&&)
 console.log("AND Operator");
 
 console.log(
@@ -22,6 +23,7 @@ console.log(
 console.log("");
 
 
+// OR (||)
 console.log("OR Operator");
 
 console.log(
@@ -43,6 +45,7 @@ console.log(
 console.log("");
 
 
+// NOT (!)
 console.log("NOT Operator");
 
 console.log(

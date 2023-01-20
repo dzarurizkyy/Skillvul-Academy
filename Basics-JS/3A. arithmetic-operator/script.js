@@ -19,6 +19,7 @@ console.log (`${number1} ^ ${number2} =`, number1 ** number2);
 // Modulus
 console.log (`${number1} % ${number2} =`, number1 % number2);
 
+
 let before = number1;
 
 // Increment

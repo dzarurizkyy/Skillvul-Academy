@@ -1,5 +1,4 @@
-let number = 10,
-    result;
+let number = 10;
 
 // Addition Assignment
 console.log(`${number} + 5 =`, number += 5);
